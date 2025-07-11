@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Market Sale</title>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-green-600 text-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Fruits Market</h1>
+      <nav class="space-x-4">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#" class="hover:underline">Contact</a>
+        <a href="#products" class="hover:underline">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-green-100 py-16 bg-green-700">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Welcome to Fruits Market</h2>
+      <p class="text-lg mb-6">Discover fresh, organic fruits handpicked for you!</p>
+      <a href="#products" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-800 transition">Browse Fruits</a>
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section id="products" class="py-12">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-10">Our Fruits</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+        <!-- Product Cards -->
+        <!-- Example: Repeat for all 9 fruits -->
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="download.webp" alt="Red Apple" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Red Apple</h4>
+            <p class="text-gray-600 mb-2">Sweet and crunchy.</p>
+            <span class="font-semibold text-green-600">$2.50 / lb</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="OIP.webp" alt="Banana" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Banana</h4>
+            <p class="text-gray-600 mb-2">Rich in potassium</p>
+            <span class="font-semibold text-green-600">$1.20 / lb</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="download (1).webp" alt="Orange" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Orange</h4>
+            <p class="text-gray-600 mb-2">Loaded with Vitamin C.</p>
+            <span class="font-semibold text-green-600">$1.80 / lb</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="download (2).webp" alt="Strawberries" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Strawberries</h4>
+            <p class="text-gray-600 mb-2">Fresh and juicy</p>
+            <span class="font-semibold text-green-600">$3.00 / box</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="OIP (1).webp" alt="Grapes" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Grapes</h4>
+            <p class="text-gray-600 mb-2">Tropical and sweet.</p>
+            <span class="font-semibold text-green-600">$2.20 / lb</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="download (3).webp" alt="Mango" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Mango</h4>
+            <p class="text-gray-600 mb-2">Tropical and sweet.</p>
+            <span class="font-semibold text-green-600">$2.20 / each</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="download (4).webp" alt="Blueberries" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Blueberries</h4>
+            <p class="text-gray-600 mb-2">Great for breakfast.</p>
+            <span class="font-semibold text-green-600">$3.50 / box</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="download (5).webp" alt="Pineapple" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Pineapple</h4>
+            <p class="text-gray-600 mb-2">Tangy and refreshing.</p>
+            <span class="font-semibold text-green-600">$3.00 / each</span>
+          </div>
+        </div>
+
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+          <img src="OIP (2).webp" alt="Watermelon" class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Watermelon</h4>
+            <p class="text-gray-600 mb-2">Perfect for summer.</p>
+            <span class="font-semibold text-green-600">$4.00 / each</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white text-center py-6 mt-12">
+    <p>&copy; 2025 Fruits Market. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+   
+

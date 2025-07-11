@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India Weather Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 min-h-screen flex items-center justify-center p-4">
+
+  <div class="bg-white shadow-xl rounded-lg w-full max-w-4xl p-6">
+    <!-- Main Weather Card -->
+    <div class="text-center mb-8">
+      <h2 class="text-2xl font-bold text-gray-800">Current Weather - India</h2>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
+        <img src="sun.png " alt="Weather Icon" class="w-20 h-20">
+        <div>
+          <p class="text-4xl font-semibold text-yellow-500">32°C</p>
+          <p class="text-gray-600 text-lg">Clear Sky</p>
+          <p class="text-sm text-gray-500">Humidity: 45% | Wind: 12 km/h</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- States Section -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Maharashtra -->
+      <div class="bg-blue-100 p-4 rounded-lg shadow-md text-center">
+        <h3 class="text-xl font-semibold text-gray-700">Maharashtra</h3>
+        <img src="partly-cloudy-png-hd-02d-png-512.png" alt="Weather" class="mx-auto w-16 h-16">
+        <p class="text-lg font-bold text-blue-600">30°C</p>
+        <p class="text-sm text-gray-600">Partly Cloudy</p>
+      </div>
+
+      <!-- Tamil Nadu -->
+      <div class="bg-blue-100 p-4 rounded-lg shadow-md text-center">
+        <h3 class="text-xl font-semibold text-gray-700">Tamil Nadu</h3>
+        <img src="139-1396566_raining-clouds-no-background-hd-png-download-removebg-preview.png" alt="Weather" class="mx-auto w-16 h-16">
+        <p class="text-lg font-bold text-blue-600">29°C</p>
+        <p class="text-sm text-gray-600">Light Rain</p>
+      </div>
+
+      <!-- West Bengal -->
+      <div class="bg-blue-100 p-4 rounded-lg shadow-md text-center">
+        <h3 class="text-xl font-semibold text-gray-700">West Bengal</h3>
+        <img src="Rt.png" alt="Weather" class="mx-auto w-16 h-16">
+        <p class="text-lg font-bold text-blue-600">31°C</p>
+        <p class="text-sm text-gray-600">Overcast Clouds</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+    <!--Navbar-->
+    <nav class="flex justify-between items-center p-4 bg-gray-900 text-white">
+        <div class="text-xl font-bold">MySite</div>
+        <ul class="flex gap-4">
+            <li><a href="#" class="hover:text-gray-400">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400">Content</a></li>
+        </ul>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="bg-cover bg-center h-[80vh] flex items-center justify-center text-center"
+             style="background-image: url('https://source.unsplash.com/1600x900/?nature,water');">
+        <div class="text-white px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Welcome to Our Site</h1>
+            <button class="bg-white text-black px-6 py-2 rounded hover:bg-gray-200 transition">
+                Get Started
+            </button>
+        </div>    
+    </section>
+
+    <!--Grid Section-->
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-semibold mb-8 text-center">Our Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="p-4 bg-gray-100 rounded shadow">
+                <h3 class="font-bold text-lg mb-2">Feature One</h3>
+                <p>Fully responsive layout on all devices.</p>
+            </div>
+            <div class="p-4 bg-gray-100 rounded shadow">
+                <h3 class="font-bold text-lg mb-2">Feature Two</h3>
+                <p>Modern design with clean code.</p>
+            </div>
+            <div class="p-4 bg-gray-100 rounded shadow">
+                <h3 class="font-bold text-lg mb-2">Feature Three</h3>
+                <p>Powered by Tailwind CSS utility classes.</p>
+            </div>
+            <div class="p-4 bg-gray-100 rounded shadow">
+                <h3 class="font-bold text-lg mb-2">Feature Four</h3>
+                <p>Customizable and easy to extend.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

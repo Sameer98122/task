@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Sidebar + Main Container -->
+     <div class="flex h-screen">
+
+        <!-- Sidebar -->
+        <div class="w-60 bg-black p-5 space-y-6">
+          <h1 class="text-2xl font-bold text-green-500">Spotify</h1>
+          <nav class="space-y-4">
+            <a href="#" class="block hover:text-green-400">🏠 Home</a>
+            <a href="#" class="block hover:text-green-400">🔍 Search</a>
+            <a href="#" class="block hover:text-green-400">📚 Your Library</a>
+          </nav>
+          <hr class="border-gray-700 my-4"/>
+          <div class="space-y-2 overflow-y-auto h-40">
+            <p class="hover:text-green-400 cursor-pointer">Playlist 1</p>
+            <p class="hover:text-green-400 cursor-pointer">Playlist 2</p>
+            <p class="hover:text-green-400 cursor-pointer">Playlist 3</p>
+            <p class="hover:text-green-400 cursor-pointer">Playlist 4</p>
+        </div>
+    </div>
+
+         <!-- Main Content -->
+          <div class="flex-1 p-6 overflow-y-auto">
+
+            <!-- Top Bar -->
+             <div class="flex justify-between items-center mb-6">
+              <div class="space-x-2">
+                <button class="bg-gray-800 p-2 rounded-full">←</button>
+                <button class="bg-gray-800 p-2 rounded-full">→</button>  
+              </div>
+              <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full">Log In</button>
+             </div>
+
+         <!-- Greeting -->
+          <h2 class="text-2xl font-bold mb-4">Good Evening</h2>
+
+          <!-- Song cards-->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th.webp" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 1</h3>
+                <p class="text-sm text-gray-400">Elvis Presley</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (1).webp" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 2</h3>
+                <p class="text-sm text-gray-400">Justin Bieber</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (2).webp" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 3</h3>
+                <p class="text-sm text-gray-400">Michael Jackson</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th.jpeg" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 4</h3>
+                <p class="text-sm text-gray-400">Taylor Swify</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (1).jpeg" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 5</h3>
+                <p class="text-sm text-gray-400">Aretha Franklin</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (2).jpeg" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 6</h3>
+                <p class="text-sm text-gray-400">Artist Name</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (3).jpeg" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 7</h3>
+                <p class="text-sm text-gray-400">Bruno Mars</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (4).jpeg" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 8</h3>
+                <p class="text-sm text-gray-400">Celine Dion</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 cursor-pointer">
+                <img src="th (5).jpeg" alt="Album" class="w-full rounded mb-3"/>
+                <h3 class="tont-semibold text-lg">Album 9</h3>
+                <p class="text-sm text-gray-400">Justin Timberlake</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Music Player -->
+    <div class="fixed bottom-0 left-0 right-0 bg-gray-800 px-6  py-4 flex justify-between items-center">
+        <div>
+           <p class="font-semibold">Taare Zameen Par</p>
+           <p class="text-sm text-gray-400">Shankar Ehsaan Loy</p>
+        </div>
+        <div class="flex space-x-4">
+            <button>⏮️</button>
+            <button>▶️</button>
+            <button>⏭️</button>
+        </div>
+        <div>
+            <p class="text-sm text-gray-400">Volume</p>
+        </div>
+    </div>
+    
+</body>
+</html>
